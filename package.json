@@ -1,0 +1,23 @@
+{
+  "name": "retro-cinema",
+  "version": "1.0.0",
+  "description": "Retro cinema pub",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --output-style compressed index.scss > index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluerat1976/retro-cinema.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluerat1976/retro-cinema/issues"
+  },
+  "homepage": "https://github.com/bluerat1976/retro-cinema#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
