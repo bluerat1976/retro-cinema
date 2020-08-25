@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+@import 'styles/content.scss';
+@import 'styles/footer';
+
 #header {
     display: flex;
     flex-flow: row nowrap;
@@ -11,17 +14,42 @@
     border-bottom: 2px solid #5e5e5e;
     padding: 10px;
 
-    .logo {
+    #logobox {
         display: flex;
-        flex: 1 1 16%;
+        flex: 1 1 10%;
         margin-left: 50px;
 
-        img { 
-            max-width: 80%;
+        #logotype { 
+            max-width: 98%;
         }
     }
 
-    .menu-header {
-        flex: 1 1 90%;
+    #menu-header-box {
+        display: flex;
+        flex: 1 1 60%;
+        align-items: flex-end;
+        text-align: center;
+
+        a {
+            flex: 1 1 10%;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+            font-weight: bold;
+            color: #534b34;
+            text-decoration: none;
+        }
+    }
+
+    #menu-header-info {
+        flex: 1 1 30%;
+        border: 1px solid #cccccc;
+
+        p {
+            color: #7a0115;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 13px;
+            font-weight: bold;  
+        }
     }
 }
+
