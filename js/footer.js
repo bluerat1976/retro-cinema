@@ -18,10 +18,10 @@ class MenulinksFoot {
 }
 
 let menuFooterLinks = [
-    new MenulinksFoot('home', 'home.html', 'About us'),
-    new MenulinksFoot('order', 'order.html', 'Our Menu'),
-    new MenulinksFoot('events', 'events.html', 'Events'),
-    new MenulinksFoot('contacts', 'contacts.html', 'Contacts'),
+    new MenulinksFoot('home', 'index.html', 'About us'),
+    new MenulinksFoot('menu', 'our-menu.html', 'Our Menu'),
+    new MenulinksFoot('events', 'our-events.html', 'Events'),
+    new MenulinksFoot('contacts', 'our-contacts.html', 'Contacts'),
 ]
 
 function renderFooterMenu() {

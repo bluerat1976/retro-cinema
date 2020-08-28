@@ -1,7 +1,7 @@
 /* logotype starts  */
 
 let logopict = document.createElement('img')
-logopict.setAttribute('src', 'pictures/logo/logo-7.jpg')
+logopict.setAttribute('src', '../pictures/logo/logo-7.jpg')
 logopict.setAttribute('id', 'logotype')
 let logo = document.getElementById('logobox')
 logo.appendChild(logopict)
@@ -29,10 +29,10 @@ class Menulinks {
 }
 
 let menuHeaderLinks = [
-    new Menulinks('home', 'home.html', 'About us'),
-    new Menulinks('order', 'order.html', 'Our Menu'),
-    new Menulinks('events', 'events.html', 'Events'),
-    new Menulinks('contacts', 'contacts.html', 'Contacts'),
+    new Menulinks('home', 'index.html', 'About us'),
+    new Menulinks('menu', 'our-menu.html', 'Our Menu'),
+    new Menulinks('events', 'our-events.html', 'Events'),
+    new Menulinks('contacts', 'our-contacts.html', 'Contacts'),
 ]
 
 function renderUpMenu() {
