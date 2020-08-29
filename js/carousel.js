@@ -1,3 +1,4 @@
+/*
 let carouselbox = document.getElementById('carousel')
 
 let pict1 = document.createElement('img')
@@ -6,6 +7,12 @@ pict1.setAttribute('alt', 'cinema-pub-1')
 pict1.setAttribute('id', 'pict1-carousel')
 
 carouselbox.appendChild(pict1)
+*/
 
+
+document.getElementById('prev').onclick = function() {
+    let text = document.getElementById('text')
+    text.innerHTML = 'Hello'
+}
 
 

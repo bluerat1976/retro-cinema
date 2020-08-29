@@ -6,6 +6,7 @@
     <title>Retro Cinema Pub</title>
     <script src="../js/header.js" type="text/javascript" defer></script>
     <script src="../js/footer.js" type="text/javascript" defer></script>
+    <script src="../js/carousel.js" type="text/javascript" defer></script>
     <link rel="stylesheet" href="../index.css">
 </head>
 <body>
@@ -18,7 +19,20 @@
     <div class="content">
         
         <div id="carousel">
-            <script src="../js/carousel.js"></script>
+           
+
+            <div class="picts">
+                <img src="../pictures/pict-carousel/cinema-pub-3.jpg" alt="">
+                <img src="../pictures/pict-carousel/cinema-pub-11.jpg" alt="">
+                <img src="../pictures/pict-carousel/cinema-pub-9.jpg" alt="">
+                <img src="../pictures/pict-carousel/cinema-pub-7.jpg" alt="">
+            </div>
+            <div class="buttons">
+                <button id="prev">prev</button>
+                <button id="next" onclick="showNextImg()">next</button>
+            </div>
+
+            <p id="text"></p>
         </div>
 
         <h1>About us</h1>
